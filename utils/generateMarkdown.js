@@ -17,9 +17,31 @@ function generateMarkdown(data) {
   ## Description
   Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
   What was your motivation? ${data.motivation}
-  Why did you build this project? ${data.why}
+  Why did you build this project? ${data.Why}
   What problem does it solve? ${data.problem}
   What did you learn? ${data.learn}
+
+  ## Table of Contents
+
+  ## Installation
+  What are the steps required to install your project? ${data.installation}
+
+  ## Usage
+  Provide instructions and examples for use: ${data.usage}
+
+  ## Contributing
+  List your collaborators: ${data.contribute}
+
+  ## Tests
+  ${data.tests}
+
+  ## License
+  License used: ${data.license}
+
+  ## Questions
+  GitHub Username: ${data.github}
+  GitHub Profile: ${data.link}
+  Please feel free to reach out to me at: ${data.email}
 
 `;
 }
