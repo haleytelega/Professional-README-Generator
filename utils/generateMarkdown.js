@@ -14,6 +14,13 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+  What was your motivation? ${data.motivation}
+  Why did you build this project? ${data.why}
+  What problem does it solve? ${data.problem}
+  What did you learn? ${data.learn}
+
 `;
 }
 
