@@ -1,11 +1,13 @@
-# fdg
+
+  ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
+  # dsf
 
   ## Description
   Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-  What was your motivation? sdf
+  What was your motivation? dsf
   Why did you build this project? sdf
   What problem does it solve? sdf
-  What did you learn? sd
+  What did you learn? sdf
 
   ## Table of Contents
 - [Installation](#installation)
@@ -20,16 +22,16 @@
   Provide instructions and examples for use: sdf
 
   ## Contributing
-  List your collaborators: sf
+  List your collaborators: sdf
 
   ## Tests
-  sf
+  sdf
 
   ## License
-  License used: GNU AGPLv3 
+  License used: None
 
   ## Questions
-  GitHub Username: f
-  GitHub Profile: sf
+  GitHub Username: sdf
+  GitHub Profile: sdf
   Please feel free to reach out to me at: sdf
 
