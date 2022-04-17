@@ -4,7 +4,16 @@ function renderLicenseBadge(license) {}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (!data.license) {
+  return '';
+}
+  if (license === "GNU AGPLv3") {
+    license = "GNU AGPLv3";
+    licenseLink =  "https://choosealicense.com/licenses/agpl-3.0/";
+    return licenseLink;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -36,7 +45,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  License used: ${data.license}
+  License used: ${data.license} ${renderLicenseLink(license)}
 
   ## Questions
   GitHub Username: ${data.github}
