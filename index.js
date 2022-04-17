@@ -151,7 +151,7 @@ const questions = [
         },
         {
             type: 'input',
-            name: 'contribute',
+            name: 'contributing',
             message: 'How can you contribute?',
             validate: contributeInput => {
                 if (contributeInput) {

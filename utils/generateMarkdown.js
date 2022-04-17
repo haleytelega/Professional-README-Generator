@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contribute)
+- [Contributing](#contributing)
 - [License](#license)
 
   ## Installation
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   Provide instructions and examples for use: ${data.usage}
 
   ## Contributing
-  List your collaborators: ${data.contribute}
+  List your collaborators: ${data.contributing}
 
   ## Tests
   ${data.tests}
