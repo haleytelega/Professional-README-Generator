@@ -5,13 +5,11 @@ function renderLicenseBadge(license) {}
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!data.license) {
+  if (!license) {
   return '';
 }
-  if (license === "GNU AGPLv3") {
-    license = "GNU AGPLv3";
+  if (data.license === "GNU AGPLv3") {
     licenseLink =  "https://choosealicense.com/licenses/agpl-3.0/";
-    return licenseLink;
   }
 }
 
@@ -31,6 +29,10 @@ function generateMarkdown(data) {
   What did you learn? ${data.learn}
 
   ## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contribute)
+- [License](#license)
 
   ## Installation
   What are the steps required to install your project? ${data.installation}
@@ -45,7 +47,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  License used: ${data.license} ${renderLicenseLink(license)}
+  License used: ${data.license} ${renderLicenseLink(data.licenseLink)}
 
   ## Questions
   GitHub Username: ${data.github}
