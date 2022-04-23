@@ -135,13 +135,13 @@ const questions = [
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             name: 'license',
             message: 'What is the license used?',
             choices: ["GNUAGPLv3", "GNUGPLv3","GNULGPLv3", "MozillaPublicLicense2.0", 
             "ApacheLicense2.0", "MITLicense", "BoostSoftwareLicense1.0", "None"],
-            validate: licenseCheckbox => {
-                if (licenseCheckbox) {
+            validate: licenselist => {
+                if (licenselist) {
                     return true;
                 } else {
                     console.log("What is the license used?");
@@ -191,6 +191,7 @@ function writeToFile(filename, data) {
 function init () {
     inquirer.prompt(questions)
     .then(function (userInput) {
+        console.log(userInput);
         writeToFile(`README.md`, generateMarkdown(userInput));
     });
 };

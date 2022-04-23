@@ -1,13 +1,13 @@
 
-  ![GitHub license](https://img.shields.io/badge/license--blue.svg)
-  # dfgg
+  ![GitHub license](https://img.shields.io/badge/license-None-blue.svg)
+  # sdfs
 
   ## Description
   Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-  What was your motivation? df
-  Why did you build this project? gs
-  What problem does it solve? dg
-  What did you learn? sdgf
+  What was your motivation? sdf
+  Why did you build this project? fs
+  What problem does it solve? df
+  What did you learn? sd
 
   ## Table of Contents
 - [Installation](#installation)
@@ -16,24 +16,24 @@
 - [License](#license)
 
   ## Installation
-  What are the steps required to install your project? sdg
+  What are the steps required to install your project? s
 
   ## Usage
-  Provide instructions and examples for use: sdfg
+  Provide instructions and examples for use: fdsf
 
   ## Contributing
-  List your collaborators: sddfg
+  List your collaborators: sdf
 
+  
   ## License
-  License used:  ![GNU Affero General Public License v3.0](https://choosealicense.com/licenses/agpl-3.0/)
-
+  License used: None 
+     
 
   ## Tests
-  dfg
-
+  sdf
 
   ## Questions
-  GitHub Username: sd
-  GitHub Profile: gs
-  Please feel free to reach out to me at: dg
+  GitHub Username: fs
+  GitHub Profile: df
+  Please feel free to reach out to me at: sdf
 
